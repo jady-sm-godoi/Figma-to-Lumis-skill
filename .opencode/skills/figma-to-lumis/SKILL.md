@@ -47,8 +47,12 @@ Extract:
 
 ### Step 2 — Fetch design data from Figma API
 
-Use the script at `scripts/figma-fetch.js`:
+Use the bundled script `scripts/figma-fetch.js`:
 ```bash
+# If skill is installed globally:
+node ~/.config/opencode/skills/figma-to-lumis/scripts/figma-fetch.js {FILE_KEY} {NODE_IDS} {TOKEN}
+
+# If skill is project-local (inside .opencode/skills/):
 node .opencode/skills/figma-to-lumis/scripts/figma-fetch.js {FILE_KEY} {NODE_IDS} {TOKEN}
 ```
 

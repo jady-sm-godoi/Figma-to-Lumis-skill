@@ -126,7 +126,8 @@ The static HTML is then transformed: content becomes `<%= row.field %>`, repeate
 ```bash
 git clone https://github.com/YOUR_USER/figma-to-lumis.git
 cd figma-to-lumis
-cp -R .opencode/skills/figma-to-lumis ~/.opencode/skills/
+mkdir -p ~/.config/opencode/skills
+cp -R .opencode/skills/figma-to-lumis ~/.config/opencode/skills/
 ```
 
 Then add the permission to `~/.config/opencode/opencode.json`:
@@ -144,7 +145,7 @@ Then add the permission to `~/.config/opencode/opencode.json`:
 **Option B — Manual:**
 
 ```bash
-mkdir -p ~/.opencode/skills/figma-to-lumis/scripts
+mkdir -p ~/.config/opencode/skills/figma-to-lumis/scripts
 # Copy SKILL.md and scripts/figma-fetch.js to the directory above
 ```
 
