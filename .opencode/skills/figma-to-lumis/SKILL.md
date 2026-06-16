@@ -1,3 +1,13 @@
+---
+name: figma-to-lumis
+description: >
+  Convert Figma designs into dynamic LumisXP templates using XML data.
+  Fetches design from Figma API, generates HTML/CSS, then converts to
+  LumisXP template with scriptlets, data queries, and XML field mapping.
+  Use when user says "convert this Figma to Lumis", "implement this Figma design",
+  "create Lumis template from Figma", or provides a Figma URL with XML context.
+---
+
 # figma-to-lumis
 
 Convert Figma designs into dynamic LumisXP templates using XML data.
