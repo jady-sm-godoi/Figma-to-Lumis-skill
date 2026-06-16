@@ -6,7 +6,7 @@
  * Usage: node figma-fetch.js <FILE_KEY> <NODE_IDS> <TOKEN>
  *
  * Example:
- *   node figma-fetch.js uZAxYHdwS7UiVKAKOhAwMo "2462:22589,2462:22580" figd_...
+ *   node figma-fetch.js SEU_FILE_KEY_AQUI "123:456,789:012" SEU_FIGMA_TOKEN
  *
  * Outputs parsed JSON with:
  *   - metadata: file key, node count
@@ -19,7 +19,7 @@ async function main() {
   const args = process.argv.slice(2);
   if (args.length < 3) {
     console.error("Usage: node figma-fetch.js <FILE_KEY> <NODE_IDS> <TOKEN>");
-    console.error("Example: node figma-fetch.js uZAxYHdwS7UiVKAKOhAwMo \"2462:22589\" figd_...");
+    console.error("Example: node figma-fetch.js SEU_FILE_KEY_AQUI \"123:456\" SEU_FIGMA_TOKEN");
     process.exit(1);
   }
 
